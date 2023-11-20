@@ -1,7 +1,3 @@
-Certainly! Adding a live link to your project description allows users to quickly preview and interact with your car rental website. Here's an updated description with a section for the live link:
-
----
-
 # React Car Rental Website
 
 Welcome to the React Car Rental Website project! 🚗✨ In this hands-on tutorial, we'll guide you step-by-step in creating a fully responsive and modern car rental website using React. Whether you're a beginner looking to sharpen your React skills or an experienced developer seeking a practical project, this tutorial has you covered.
@@ -17,7 +13,7 @@ Welcome to the React Car Rental Website project! 🚗✨ In this hands-on tutori
 
 ## Live Demo:
 
-Explore the live demo of the React Car Rental Website: [Live Demo](https://your-username.github.io/react-car-rental)
+Explore the live demo of the React Car Rental Website: [Live Demo](https://jamshibkl.github.io/React-Car-Rental-Website)
 
 ## How to Use:
 
@@ -50,7 +46,3 @@ Contributions are welcome! If you find a bug, have a feature request, or want to
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 Happy coding! 🚀
-
----
-
-Make sure to replace `your-username` with your actual GitHub username in the live demo link.
