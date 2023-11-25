@@ -1,6 +1,6 @@
 # React Car Rental Website
 
-Welcome to the React Car Rental Website project! 🚗✨ In this hands-on tutorial, we'll guide you step-by-step in creating a fully responsive and modern car rental website using React. Whether you're a beginner looking to sharpen your React skills or an experienced developer seeking a practical project, this tutorial has you covered.
+Welcome to the React Car Rental Website project! 🚗✨ 
 
 ## Key Features:
 
