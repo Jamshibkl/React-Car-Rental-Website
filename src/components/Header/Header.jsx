@@ -6,7 +6,7 @@ import "../../styles/header.css";
 
 const navLinks = [
   {
-    path: "/home",
+    path: "/",
     display: "Home",
   },
   {
@@ -54,7 +54,7 @@ const Header = () => {
                   <i class="ri-login-circle-line"></i> Login
                 </Link>
 
-                <Link to="#" className=" d-flex align-items-center gap-1">
+                <Link to="signup" className=" d-flex align-items-center gap-1">
                   <i class="ri-user-line"></i> Register
                 </Link>
               </div>
