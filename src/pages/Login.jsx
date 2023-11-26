@@ -1,5 +1,6 @@
 import React from 'react';
 import '../styles/login.css'
+import {Link} from 'react-router-dom';
 function Login() {
   return (
     <div className='parent'>
@@ -21,7 +22,7 @@ function Login() {
             Forget password?
           </a>
           <p className="signup-link">
-            Don't have an account? <a href="sigup">Sign up</a>
+            Don't have an account? <Link to='/signup'>Sign up</Link>
           </p>
         </div>
       </form>
