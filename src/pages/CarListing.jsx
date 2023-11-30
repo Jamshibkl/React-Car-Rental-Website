@@ -4,6 +4,7 @@ import Helmet from "../components/Helmet/Helmet";
 import CommonSection from "../components/UI/CommonSection";
 import CarItem from "../components/UI/CarItem";
 import carData from "../assets/data/carData";
+import { Link } from "react-router-dom";
 
 const CarListing = () => {
   return (
@@ -14,16 +15,18 @@ const CarListing = () => {
         <Container>
           <Row>
             <Col lg="12">
-              <div className=" d-flex align-items-center gap-3 mb-5">
+              <div className=" d-flex align-items-center gap-3 mb-5 text-primary">
                 <span className=" d-flex align-items-center gap-2">
                   <i class="ri-sort-asc"></i> Sort By
                 </span>
 
-                <select>
-                  <option>Select</option>
-                  <option value="low">Low to High</option>
-                  <option value="high">High to Low</option>
-                </select>
+                <div class="dropdown">
+                  <button class="dropbtn">Select Price</button>
+                  <div class="dropdown-content">
+                    <Link to="/">Low to High</Link>
+                    <Link to="/">High to Low</Link>
+                  </div>
+                </div>
               </div>
             </Col>
 
